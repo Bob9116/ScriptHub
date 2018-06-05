@@ -59,7 +59,9 @@ JFrame newFrame = new JFrame();
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("BOBAGATER HUB");
 
+        jLabel2.setBackground(new java.awt.Color(255, 21, 138));
         jLabel2.setFont(new java.awt.Font("Eras Bold ITC", 0, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 0, 51));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Made by BOB#9116 and The Amusing Alligator#5966");
 
