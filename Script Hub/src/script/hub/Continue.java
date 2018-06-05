@@ -4,18 +4,30 @@
  * and open the template in the editor.
  */
 package script.hub;
+import javax.swing.*;
+import java.awt.BorderLayout;
+import javax.swing.ImageIcon;
+import java.awt.Toolkit;
+import java.text.DecimalFormat;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  *
  * @author Darius
  */
 public class Continue extends javax.swing.JPanel {
-
+JFrame newFrame = new JFrame();
     /**
      * Creates new form Continue
      */
     public Continue() {
         initComponents();
+        newFrame.getContentPane().add(this, BorderLayout.CENTER); 
+        newFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); 
+        newFrame.pack(); 
+        newFrame.setVisible(true); 
+             newFrame.setTitle("Bobagator");
     }
 
     /**
