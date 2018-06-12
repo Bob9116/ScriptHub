@@ -63,7 +63,7 @@ JFrame newFrame = new JFrame();
         jLabel2.setFont(new java.awt.Font("Eras Bold ITC", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 0, 51));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("Made by BOB#9116 and The Amusing Alligator#5966 test 123");
+        jLabel2.setText("made by BOB#9116 and The Amusing Alligator#5966");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
