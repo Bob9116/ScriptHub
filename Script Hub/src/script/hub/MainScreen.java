@@ -5,17 +5,26 @@
  */
 package script.hub;
 
+import java.awt.BorderLayout;
+import javax.swing.JFrame;
+import javax.swing.WindowConstants;
+
 /**
  *
  * @author Darius
  */
 public class MainScreen extends javax.swing.JPanel {
-
+JFrame newFrame = new JFrame();
     /**
      * Creates new form MainScreen
      */
     public MainScreen() {
         initComponents();
+        newFrame.getContentPane().add(this, BorderLayout.CENTER); 
+        newFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); 
+        newFrame.pack(); 
+        newFrame.setVisible(true); 
+             newFrame.setTitle("Bobagator");
     }
 
     /**
