@@ -28,7 +28,6 @@ JFrame newFrame = new JFrame();
         newFrame.pack(); 
         newFrame.setVisible(true); 
              newFrame.setTitle("Bobagator");
-             newFrame.setTitle("Test");
     }
 
     /**
